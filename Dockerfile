@@ -1,5 +1,5 @@
 FROM ros:noetic-robot
-MAINTAINER Benjamin Staehle <staehle@rwu.de>
+MAINTAINER Mrunal Sai <mrunalsai911@gmail.com>
 ENV ROS_DISTRO noetic
 ENV DEBIAN_FRONTEND noninteractive
 ENV TURTLEBOT3_MODEL burger
