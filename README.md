@@ -2,6 +2,8 @@
 
 The bot is trapped in a room and the only exit is blocked by an obstacle. The task is to create a package that moves the turtlebot until it reaches a wall, then stop and delete the round obstacle with a service call. Then it has to exit the room.
 
+![](IMAGES/project.png)
+
 **Dockerfile build:**
 
 Image can be built using the Dokerfile (**docker build -t imagename:tag .**)
