@@ -31,8 +31,8 @@ Spawn the gazebo model: **roslaunch miniproject_world world.launch**
  
  We initialize the action server with the name mini_project_action_server.
  
- **Finally we publish the goal into the action topic, which starts the rest of the program:
- **
+ **Finally we publish the goal into the action topic, which starts the rest of the program: **
+
  
 rostopic pub /mini_project_action_server/goal action/StartActionGoal "header:
 seq: 0
