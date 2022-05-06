@@ -142,7 +142,6 @@ if __name__=='__main__':
 	try:
 		rospy.init_node('miniprj')
 		me = skillcheck()
-		me.action_callback()
 		rospy.spin()
 	except rospy.ROSInterruptException:
         	pass
